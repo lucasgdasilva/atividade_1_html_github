@@ -43,7 +43,7 @@
       }
 
       p{
-        color: aqua;
+        color: white;
       }
 
       #apresentacao{
@@ -69,6 +69,41 @@
         font-weight: 700;
       }
 
+      .nav-link:hover{
+        background: rgb(255, 200, 0);
+      }
+      
+      .gallery{
+        width: 950px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+      }
+
+      .box .gallery{
+        margin-right: 15px;
+      }
+
+      .bat-img{
+        height: 200px;
+        border: 2px solid aliceblue;
+        border-radius: 10px;
+      }
+
+      .link{
+        color:rgb(255, 221, 0);
+        text-decoration: none;
+      }
+
+      .link:hover{
+        text-decoration: underline;
+      }
+
+      footer p{
+        color: rgb(233, 21, 187);
+        margin: 6px 0 0;
+      }
+      
     </style>
   </head>
 
@@ -112,9 +147,9 @@
           <section class="box" id="galeria">
             <h2>Galeria</h2>
             <div class="gallery" id="galeria-imagens">
-              <img class="bat-img" src="batman1.jpg" alt="Batman com um taco de baseball" width="220" height="120">
-              <img class="bat-img" src="batman2.jpg" alt="Batman raivoso" width="220" height="120">
-              <img class="bat-img" src="batman3.jpg" alt="Batman fazendo pose" width="220" height="120">
+              <img class="bat-img" src="batman1.jpg" alt="Batman">
+              <img class="bat-img" src="batman2.jpg" alt="Batman raivoso">
+              <img class="bat-img" src="batman3.jpg" alt="Batman fazendo pose">
             </div>
           </section>
         </main>
@@ -124,7 +159,7 @@
             <a class="link" href="#topo">Topo</a>
           </p>
           <p class="texto-rodape">
-            <a class="link">Exemplo para treino de HTML e CSS<a>
+            <a>Exemplo para treino de HTML e CSS<a>
           </p>
         </footer>
       </div>
